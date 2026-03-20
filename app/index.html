@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid UI API Test</title>
+</head>
+<body>
+  <h1>Hybrid UI + API Test</h1>
+
+  <label for="username">User Name</label>
+  <input id="username" type="text" />
+
+  <button id="show-button">Show User</button>
+
+  <p id="result"></p>
+
+  <script>
+    const button = document.getElementById('show-button');
+    const input = document.getElementById('username');
+    const result = document.getElementById('result');
+
+    button.addEventListener('click', () => {
+      result.textContent = `User loaded: ${input.value}`;
+    });
+  </script>
+</body>
+</html>
