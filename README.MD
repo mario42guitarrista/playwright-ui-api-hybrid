@@ -1,21 +1,41 @@
-# Playwright UI + API Hybrid
+# Playwright UI + API Hybrid Testing
 
-Hybrid automation project using Playwright to combine API data retrieval with UI validation.
+This project demonstrates hybrid test automation combining UI and API testing using Playwright.
 
-## Flow
-- Retrieve user data from a public API
-- Open a local UI page
-- Fill the UI with the API response
-- Validate the result on screen
-
-## Tech Stack
+## 🚀 Technologies
 - Playwright
 - JavaScript
 - Node.js
-- Simple local HTML page
+- Page Object Model (POM)
 
-## How to run
+## 📌 Features
 
-```bash
+### ✅ UI Testing
+- User interaction validation
+- Form submission
+- DOM validation
+
+### ✅ API Testing
+- GET request validation
+- Response status and body validation
+
+### ✅ Hybrid Testing
+- Data fetched from API is used in UI validation
+
+### ✅ Test Scenarios
+- Positive scenario (valid user)
+- Negative scenario (empty input validation)
+
+## 📂 Project Structure
+
+
+## ▶️ How to Run
+
 npm install
 npx playwright test
+
+npx playwright show-report
+
+## 💼 Author
+Mario — QA Automation Engineer
+
